@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # input 
-cd /home/pyurovskiyh/Downloads
+cd /home/name/Downloads
 for FILE in $(ls); do 
 	EXT=$(echo $FILE | cut -d. -f2)
 	if [[ $EXT == stl ]]; then
